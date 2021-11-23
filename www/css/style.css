@@ -1,0 +1,181 @@
+/**/
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+/*.painter-menu {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}*/
+
+.painter-menu {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.painter-menu-item {
+    width: 25%;
+    height: 44px;
+    border-bottom: 8px solid;
+    background: #fcc no-repeat center;
+    text-align: center;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*.painter-menu-item {
+    width: 25%;
+    height: 44px;
+    float: left;
+    border-bottom: 8px solid;
+    background: #fcc no-repeat center;
+    text-align: center;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}*/
+
+/*改造 色増やしてレイアウト整えた*/
+
+/*黄色*/
+.painter-menu-item-yellow {
+    background: #ffff00;
+    background-size: 23px 12px;
+    border-color: #ffdb4f;
+}
+.painter-menu-item-yellow.active {
+    background-color: #ffdb4f;
+}
+
+/*紫色*/
+.painter-menu-item-purple {
+    background: #bf80ff;
+    background-size: 23px 12px;
+    border-color: #730099;
+}
+.painter-menu-item-purple.active {
+    background-color: #730099;
+}
+
+/*橙色*/
+.painter-menu-item-orange {
+    background: #f3981d;
+    background-size: 23px 12px;
+    border-color: #ed6d35;
+}
+.painter-menu-item-orange.active {
+    background-color: #ed6d35;
+}
+
+/*桃色*/
+.painter-menu-item-pink {
+    background: #ffb6c1;
+    background-size: 23px 12px;
+    border-color: #ff69b4;
+}
+.painter-menu-item-pink.active {
+    background-color: #ff69b4;
+}
+
+/*黒*/
+.painter-menu-item-black {
+    background: #484848;
+    background-size: 23px 12px;
+    border-color: #0d0015;
+}
+.painter-menu-item-black.active {
+    background-color: #0d0015;
+}
+
+/*黄緑色*/
+.painter-menu-item-yellowgreen {
+    background: #d9e367;
+    background-size: 23px 12px;
+    border-color: #6ab547;
+}
+.painter-menu-item-yellowgreen.active {
+    background-color: #6ab547;
+}
+
+/*水色*/
+.painter-menu-item-aqua {
+    background: #bce2e8;
+    background-size: 23px 12px;
+    border-color: #67b5b7;
+}
+.painter-menu-item-aqua.active {
+    background-color: #67b5b7;
+}
+
+/*ベージュ*/
+.painter-menu-item-beige {
+    background: #f6e5cc;
+    background-size: 23px 12px;
+    border-color: #eedcb3;
+}
+.painter-menu-item-beige.active {
+    background-color: #eedcb3;
+}
+
+/*緑色*/
+.painter-menu-item-green {
+    background: #bdd7c0;
+    background-size: 23px 12px;
+    border-color: #5a9c62;
+}
+.painter-menu-item-green.active {
+    background-color: #5a9c62;
+}
+
+/*赤色*/
+.painter-menu-item-red {
+    background: #ff6f5f;
+    background-size: 23px 12px;
+    border-color: #e65a50;
+}
+.painter-menu-item-red.active {
+    background-color: #e65a50;
+}
+
+/*青色*/
+.painter-menu-item-blue {
+    background: #bed0eb;
+    background-size: 23px 12px;
+    border-color: #5c89cc;
+}
+.painter-menu-item-blue.active {
+    background-color: #5c89cc;
+}
+
+/*削除*/
+.painter-menu-item-delete {
+    background: #ccc;
+    background-size: 23px 12px;
+    border-color: #808080;
+}
+.painter-menu-item-delete:active {
+    background-color: #808080;
+}
+.desc {
+  height:40px;
+  line-height:40px;
+  text-align: center;
+  background: #bbe2f1;
+}
