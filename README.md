@@ -1,5 +1,5 @@
 # Monaca-Demo
-Monaca紹介用
+Monaca紹介用 - お絵かきアプリ
 https://hackmd.io/uzXcbHSfT3SLd4HW0iXxEA?edit
 
 # 参考書籍
