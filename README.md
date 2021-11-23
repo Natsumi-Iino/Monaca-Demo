@@ -1,6 +1,6 @@
 # Monaca-Demo
 Monaca紹介用 - お絵かきアプリ
-https://hackmd.io/uzXcbHSfT3SLd4HW0iXxEA?edit
+https://hackmd.io/uzXcbHSfT3SLd4HW0iXxEA
 
 # 参考書籍
 『クラウドでできるHTML5ハイブリッドアプリ開発 Cordova/Onsen UIで作るiOS/Android両対応アプリ』
